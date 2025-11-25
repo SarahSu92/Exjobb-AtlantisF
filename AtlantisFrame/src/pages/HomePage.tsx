@@ -8,13 +8,13 @@ export const HomePage = () => {
         <img
           className="heroimage"
           src={`${import.meta.env.BASE_URL}zoo-animals.jpg`}
-          alt="Djurpark med apor, giraffer och lejon."
+          alt=""
         />
-        <h1 className="heroh1">Välkommen till Zoo sidan</h1>
+        <h1 className="heroh1">Find your next travel adventure</h1>
       </div>
       <div className="heroinfo">
-        <Link to={`/Animals`} className="herolink">
-        <h2 className='herolink'>Besök vår djursida för att se alla djur!</h2>
+        <Link to={`/DestinationPage`} className="herolink">
+        <h2 className='herolink'>See all our destinations!</h2>
         </Link>
       </div>
         </>

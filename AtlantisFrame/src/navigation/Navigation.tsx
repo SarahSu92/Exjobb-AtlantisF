@@ -4,13 +4,19 @@ import './Navigation.scss';
 export const Navigation = () => {
   return (
     <nav>
-      <a href="/" className='logo'>The Zoo</a>
+      <a href="/" className='logo'>Atlantis Frame</a>
       <ul>
         <li>
-          <NavLink to={'/'}>Hem</NavLink>
+          <NavLink to={'/'}>Home</NavLink>
         </li>
         <li>
-          <NavLink to={'/Animals'}>Djuren</NavLink>
+          <NavLink to={'/DestinationPage'}>Destinations</NavLink>
+        </li>
+        <li>
+          <NavLink to={'/AboutPage'}>About</NavLink>
+        </li>
+        <li>
+          <NavLink to={'/ContactPage'}>Contact</NavLink>
         </li>
       </ul>
     </nav>

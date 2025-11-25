@@ -1,4 +1,4 @@
-export const AboutPage = () => {
+export const ErrorPage = () => {
     return(
         <></>
     );

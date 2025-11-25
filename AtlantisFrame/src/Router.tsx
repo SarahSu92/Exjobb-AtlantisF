@@ -1,34 +1,39 @@
-// import { createBrowserRouter } from 'react-router';
-// import { Layout } from './layout/Layout';
-// import { Error } from './pages/ErrorPage';
-// import { Home } from './pages/HomePage';
-// import { Animal } from './pages/AnimalPage';
-// import {AboutAnimal} from './pages/AboutAnimal';
+import { createBrowserRouter } from "react-router";
+import { ErrorPage } from "./pages/ErrorPage";
+import { HomePage } from "./pages/HomePage";
+import { DestinationPage } from "./pages/DestinationPage";
+import { AboutPage } from "./pages/AboutPage";
+import { ContactPage } from "./pages/ContactPage";
+import { Layout } from "./layout/Layout";
 
 
-// export const Router = createBrowserRouter(
-//   [
-//     {
-//       path: '/',
-//       element: <Layout />,
-//       errorElement: <Error />,
-//       children: [
-//         {
-//           path: '/',
-//           element: <Home />,
-//         },
-//         {
-//           path: '/Animals',
-//           element: <Animal />,
-//         },
-//         {
-//           path: '/AboutAnimal/:id',
-//           element: <AboutAnimal />,
-//         },
-//       ],
-//     },
-//   ],
-//   {
-//     basename: '/AtlantisFrame', // 👈 Important for gh-pages!
-//   }
-// );
+export const Router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Layout />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          path: '/',
+          element: <HomePage />,
+        },
+        {
+          path: '/Destinations',
+          element: <DestinationPage />,
+        },
+        {
+          path: '/About',
+          element: <AboutPage />,
+        },
+          {
+          path: '/Contact',
+          element: <ContactPage />,
+        },
+      ],
+    },
+  ],
+  {
+    basename: '/AtlantisFrame', // Important for gh-pages!
+  }
+);
