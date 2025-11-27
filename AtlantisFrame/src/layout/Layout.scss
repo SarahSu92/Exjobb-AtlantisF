@@ -1,0 +1,31 @@
+Body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+
+}
+
+header {
+    background: linear-gradient(135deg,
+            #d5dec1 0%,
+            #c6d3ab 30%,
+            #e0e9cc 50%,);
+
+}
+
+main {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 150px;
+    padding: 2rem;
+    bottom: 0;
+    background: linear-gradient(135deg,
+            #d5dec1 0%,
+            #c6d3ab 0%,
+            #e0e9cc 50%,
+            #beca9d 140%);
+
+}

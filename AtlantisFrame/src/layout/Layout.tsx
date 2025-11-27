@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router';
 import './Layout.scss';
 import { Navigation } from '../navigation/Navigation';
-import { Footer } from '../pages/Footer';
+import { Footer } from '../components/Footer/Footer';
 
 
 
