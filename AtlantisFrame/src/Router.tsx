@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router";
-import { ErrorPage } from "./pages/ErrorPage";
-import { HomePage } from "./pages/HomePage";
-import { DestinationPage } from "./pages/DestinationPage";
-import { AboutPage } from "./pages/AboutPage";
-import { ContactPage } from "./pages/ContactPage";
+import { ErrorPage } from "./pages/Error/ErrorPage";
+import { HomePage } from "./pages/Home/HomePage";
+import { DestinationPage } from "./pages/Destination/DestinationPage";
+import { AboutPage } from "./pages/About/AboutPage";
+import { ContactPage } from "./pages/Contact/ContactPage";
 import { Layout } from "./layout/Layout";
 
 
@@ -19,15 +19,15 @@ export const Router = createBrowserRouter(
           element: <HomePage />,
         },
         {
-          path: '/Destinations',
+          path: '/DestinationPage',
           element: <DestinationPage />,
         },
         {
-          path: '/About',
+          path: '/AboutPage',
           element: <AboutPage />,
         },
           {
-          path: '/Contact',
+          path: '/ContactPage',
           element: <ContactPage />,
         },
       ],
