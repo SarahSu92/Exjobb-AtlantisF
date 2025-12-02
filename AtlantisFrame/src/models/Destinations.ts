@@ -1,52 +1,102 @@
-export interface Destination {
-  id: string; 
-  country: string;
-  name: string;
-  region: "EUROPE" | "NORTH AMERICA" | "AFRICA" | "ASIA";
-  image?: string;
+export const destinations = [
+  {
+    id: '1',
+    name: 'Azorerna',
+    country: 'Portugal',
+    region: 'EUROPE',
+    description:
+      'Azorerna är en portugisisk ögrupp i Atlanten, känd för sina vulkaniska landskap, gröna dalar och pittoreska byar.',
 
-  shortDescription: string;
-  longDescription?: string;
+    activities: ['Hiking', 'Beaches', 'Monuments'],
+  },
+  {
+    id: '2',
+    name: 'Capri',
+    country: 'Italy',
+    region: 'EUROPE',
+    description:
+      'Capri is an Italian island in the Tyrrhenian Sea, known for dramatic limestone cliffs and the Blue Grotto.',
 
-  language: {
-    main: string;
-    regional?: string[];
-    commonPhrases?: { phrase: string; translation: string }[];
-  };
+    activities: ['Beaches', 'Monuments', 'Hiking'],
+  },
+  {
+    id: '3',
+    name: 'Aruba',
+    country: 'Netherlands Antilles',
+    region: 'NORTH AMERICA',
+    description:
+      'Aruba är en karibisk ö känd för sina vita sandstränder, soliga klimat och vattensporter.',
 
-  religion?: string[];
-  currency: string;
+    activities: ['Beaches', 'Hiking'],
+  },
+  {
+    id: '4',
+    name: 'Boston',
+    country: 'USA',
+    region: 'NORTH AMERICA',
+    description:
+      'Historic city known for the Freedom Trail, rich culture, and universities.',
 
-  payment: {
-    cardsAccepted: string[];
-    notes?: string[];
-  };
+    activities: ['Urban Culture', 'Monuments'],
+  },
+  {
+    id: '5',
+    name: 'Montana',
+    country: 'USA',
+    region: 'NORTH AMERICA',
+    description:
+      'Montana offers vast wilderness, national parks, and hiking opportunities.',
 
-  climate: {
-    summary: string;
-    summer?: string;
-    winter?: string;
-    springAutumn?: string;
-  };
+    activities: ['Hiking', 'Monuments'],
+  },
+  {
+    id: '6',
+    name: 'Vancover',
+    country: 'Canada',
+    region: 'NORTH AMERICA',
+    description:
+      'Vancouver is a coastal city with mountains, parks, and urban culture.',
 
-  bestTimeToTravel: string;
+    activities: ['Urban Culture', 'Hiking'],
+  },
+  {
+    id: '7',
+    name: 'Marocco',
+    country: 'Morocco',
+    region: 'AFRICA',
+    description:
+      'Marocco offers bustling medinas, desert landscapes, and historical sites.',
 
-  tips: string[];
+    activities: ['Urban Culture', 'Monuments'],
+  },
+  {
+    id: '8',
+    name: 'Maldives',
+    country: 'Maldives',
+    region: 'AFRICA',
+    description:
+      'Maldives is a tropical paradise with white sand beaches and coral reefs.',
 
-  hotels: {
-    name: string;
-    description: string;
-  }[];
+    activities: ['Beaches', 'Hiking'],
+  },
+  {
+    id: '9',
+    name: 'Singapore',
+    country: 'Singapore',
+    region: 'ASIA',
+    description:
+      'Singapore is a modern city-state with urban culture, gardens, and monuments.',
 
-  attractions: {
-    title: string;
-    description: string;
-    notes?: string[];
-  }[];
+    activities: ['Urban Culture', 'Monuments'],
+  },
+  {
+    id: '10',
+    name: 'Seychelles',
+    country: 'Seychelles',
+    region: 'ASIA',
+    description:
+      'Seychelles is an island nation with pristine beaches, coral reefs, and hiking trails.',
 
-  budget: {
-    low: string;
-    mid: string;
-    high: string;
-  };
-}
+    activities: ['Beaches', 'Hiking'],
+  },
+];
