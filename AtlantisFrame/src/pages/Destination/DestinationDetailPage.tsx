@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import './DestinationDetail.scss';
-import { Destinations } from '../../models/Destinations';
+import { Destinations } from '../../Destinations/DestinationIndex';
 
 export const DestinationDetailPage = () => {
   const { id } = useParams<{ id: string }>();
