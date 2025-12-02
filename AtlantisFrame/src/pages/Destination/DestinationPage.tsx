@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router';
+import { Destinations } from '../../models/Destinations';
 import './Destination.scss';
-import { destinations } from '../../models/Destinations';
 
 export const DestinationPage = () => {
   // Gruppera destinations per region
@@ -12,7 +12,7 @@ export const DestinationPage = () => {
       <h1>All Destinations</h1>
 
       {regions.map(region => {
-        const regionDestinations = destinations.filter(d => d.region === region);
+        const regionDestinations = Destinations.filter(d => d.region === region);
 
         return (
           <div key={region}>
@@ -22,8 +22,7 @@ export const DestinationPage = () => {
                 <div key={dest.id} className="destination-card">
                   <Link to={`/destination/${dest.id}`}>
                     <h3>{dest.name}</h3>
-                    <p>{dest.activities}</p>
-                    <p>{dest.description}</p>                    
+                    <p>{dest.description}</p>
                   </Link>
                 </div>
               ))}
