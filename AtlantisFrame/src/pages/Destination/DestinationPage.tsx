@@ -2,8 +2,10 @@ import { Aruba } from '../../components/Destinations/Aruba';
 import { Azorerna } from '../../components/Destinations/Azorerna';
 import { Boston } from '../../components/Destinations/Boston';
 import { Capri } from '../../components/Destinations/Capri';
+import { Maldives } from '../../components/Destinations/Maldives';
 import { Marocco } from '../../components/Destinations/Marocco';
 import { Montana } from '../../components/Destinations/Montana';
+import { Seychelles } from '../../components/Destinations/Seychelles';
 import { Singapore } from '../../components/Destinations/Singapore';
 import { Vancover } from '../../components/Destinations/Vancover';
 import './Destination.scss';
@@ -45,7 +47,7 @@ export const DestinationPage = () => {
             <Marocco />
           </div>
         <div>
-            <Marocco />
+            <Maldives />
           </div>
         </div>
 
@@ -55,7 +57,7 @@ export const DestinationPage = () => {
             <Singapore />
           </div>
           <div>
-            <Singapore />
+            <Seychelles />
           </div>
         </div>
       </div>

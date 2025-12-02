@@ -1,11 +1,11 @@
-import { createBrowserRouter } from "react-router";
-import { ErrorPage } from "./pages/Error/ErrorPage";
-import { HomePage } from "./pages/Home/HomePage";
-import { DestinationPage } from "./pages/Destination/DestinationPage";
-import { AboutPage } from "./pages/About/AboutPage";
-import { ContactPage } from "./pages/Contact/ContactPage";
-import { Layout } from "./layout/Layout";
-
+import { createBrowserRouter } from 'react-router';
+import { ErrorPage } from './pages/Error/ErrorPage';
+import { HomePage } from './pages/Home/HomePage';
+import { DestinationPage } from './pages/Destination/DestinationPage';
+import { DestinationDetailPage } from './pages/Destination/DestinationDetailPage';
+import { AboutPage } from './pages/About/AboutPage';
+import { ContactPage } from './pages/Contact/ContactPage';
+import { Layout } from './layout/Layout';
 
 export const Router = createBrowserRouter(
   [
@@ -23,10 +23,14 @@ export const Router = createBrowserRouter(
           element: <DestinationPage />,
         },
         {
+          path: '/destination/:id',
+          element: <DestinationDetailPage />,
+        },
+        {
           path: '/AboutPage',
           element: <AboutPage />,
         },
-          {
+        {
           path: '/ContactPage',
           element: <ContactPage />,
         },
