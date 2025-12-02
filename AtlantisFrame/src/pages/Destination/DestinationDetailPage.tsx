@@ -1,7 +1,9 @@
+import './DestinationDetail.scss';
+
 export const DestinationDetailPage = () => {
     return(
         <>
-        Hello
+        I'm a travel destination!
         </>
     );
 };
