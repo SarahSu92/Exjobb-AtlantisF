@@ -5,10 +5,7 @@ Body {
 }
 
 header {
-    background: linear-gradient(135deg,
-            #d5dec1 0%,
-            #c6d3ab 30%,
-            #e0e9cc 50%,);
+    background-color: #111111;
 
 }
 
@@ -22,10 +19,8 @@ footer {
     height: 150px;
     padding: 2rem;
     bottom: 0;
-    background: linear-gradient(135deg,
-            #d5dec1 0%,
-            #c6d3ab 0%,
-            #e0e9cc 50%,
-            #beca9d 140%);
+    background-color: #111111;
+    color: #fff;
+    
 
 }
