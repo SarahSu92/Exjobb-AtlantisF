@@ -22,7 +22,8 @@ export const DestinationPage = () => {
                 <div key={dest.id} className="destination-card">
                   <Link to={`/destination/${dest.id}`}>
                     <h3>{dest.name}</h3>
-                    <p>{dest.description}</p>
+                    <p>{dest.activities}</p>
+                    <p>{dest.shortDescription}</p>
                   </Link>
                 </div>
               ))}
