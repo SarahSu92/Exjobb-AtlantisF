@@ -14,13 +14,9 @@ export const Boston =
      North End, Downtown, and nearby Cambridge — home to Harvard and MIT. 
      Boston offers historic landmarks, beautiful parks, museums, waterfront views, and a lively food and culture scene.`,
     activities: [
-      'Walking Tours',
-      'Museums',
-      'Kayaking',
-      'Sightseeing',
-      'Sports Events',
-      'Harbor Cruises',
-    ],
+      'Urban Culture',
+      'Monuments' 
+      ],
     language: `Main: English
              Common Secondary: Spanish, Portuguese, Chinese, Italian
              Common Phrases:

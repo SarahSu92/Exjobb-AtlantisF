@@ -13,7 +13,7 @@ export const Capri =
      Its landscape features steep limestone cliffs, sandstone formations, and coastal trails shaped by natural erosion. 
      Popular since ancient Roman times, the island is known for stunning sea views, luxury boutiques, scenic hikes, 
      and iconic natural features such as the Faraglioni rocks and the Blue Grotto.`,
-    activities: ['Hiking', 'Boat Tours', 'Monuments', 'Sightseeing'],
+    activities: ['Hiking', 'Monuments'],
     language: `Main: Italian
              Regional: Neapolitan (local dialect)
              Common Phrases:

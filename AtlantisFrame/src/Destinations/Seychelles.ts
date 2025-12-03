@@ -15,13 +15,8 @@ export const Seychelles =
      Seychelles is ideal for relaxation, eco-tourism, water sports, and exploring tropical nature.`,
 
     activities: [
-      'Snorkeling and diving in coral reefs',
-      'Beach days at Anse Lazio & Anse Source d’Argent',
-      'Island hopping between Mahé, Praslin, and La Digue',
-      'Hiking in Morne Seychellois National Park',
-      'Exploring Victoria city and local markets',
-      'Sailing, kayaking, and paddleboarding',
-      'Visiting traditional Creole villages',
+      'Hiking',
+      'Beaches'
     ],
 
     language: `Official Languages: English, French, Seychellois Creole (Kreol)

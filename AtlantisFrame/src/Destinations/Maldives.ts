@@ -14,13 +14,7 @@ export const Maldives =
      It also serves as the main transit hub for ferries, speedboats, and seaplane transfers to the surrounding atolls.`,
 
     activities: [
-      'Scuba diving',
-      'Snorkeling',
-      'Sunset dolphin cruises',
-      'Surfing in nearby atolls',
-      'Water sports (kayak, jet ski, paddleboard)',
-      'Island hopping',
-      'Exploring local markets and mosques',
+      'Beaches'     
     ],
 
     language: `Main: Dhivehi

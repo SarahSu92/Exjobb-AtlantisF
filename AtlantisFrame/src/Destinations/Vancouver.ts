@@ -14,13 +14,9 @@ export const Vancouver =
      forests, and mountains. The city includes vibrant districts such as Downtown, Gastown, Yaletown, Kitsilano, and the North Shore.`,
 
     activities: [
-      'Hiking',
-      'Cycling',
-      'Paddleboarding',
-      'Skiing & Snowboarding',
-      'Whale Watching',
-      'Sightseeing',
-      'Market Tours',
+      'Urban Culture',
+      'Monuments'
+     
     ],
 
     language: `Main: English

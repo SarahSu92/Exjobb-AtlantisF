@@ -3,8 +3,8 @@ export const Aruba =
     id: '3',
     name: 'Aruba',
     image: '',
-    country: 'Kingdom of the Netherlands',
-    region: 'CARIBBEAN',
+    country: 'Caribbean',
+    region: 'NORTH AMERICA',
     description:
       'Aruba is a Caribbean island known for its white sandy beaches, turquoise waters, constant trade winds, and year-round sunshine.',
     shortDescription:
@@ -13,13 +13,8 @@ export const Aruba =
      The capital, Oranjestad, is known for colorful Dutch colonial architecture, shopping, and cultural spots. 
      With a dry, tropical climate and location outside the hurricane belt, Aruba is a safe year-round destination. 
      It offers pristine beaches, coral reefs, rugged desert-like landscapes, national parks, and world-class water sports.`,
-    activities: [
-      'Snorkeling',
-      'Diving',
-      'Water Sports',
-      'Hiking',
-      'Nature Exploration',
-      'Sightseeing',
+    activities: [     
+      'Beaches',
     ],
     language: `Main: Dutch, Papiamento
              Widely Spoken: English, Spanish

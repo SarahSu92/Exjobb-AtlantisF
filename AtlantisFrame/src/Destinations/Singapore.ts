@@ -16,13 +16,8 @@ export const Singapore =
      ranging from hawker centers to Michelin-starred restaurants, Singapore is perfect for city lovers, families, and food explorers.`,
 
     activities: [
-      'SkyPark observation deck',
-      'Gardens by the Bay light show',
-      'Beach day on Sentosa Island',
-      'Shopping on Orchard Road',
-      'Night Safari and zoo experiences',
-      'Cultural exploration in Chinatown & Little India',
-      'Trying food at hawker centers',
+      'Urban Culture',
+      'Monuments'
     ],
 
     language: `Main: English

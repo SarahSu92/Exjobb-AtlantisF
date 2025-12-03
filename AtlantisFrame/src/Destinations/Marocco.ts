@@ -13,13 +13,8 @@ export const Morocco=
      The country is known for its colorful souks, Sahara Desert adventures, mountain landscapes, and unique architectural beauty. Whether you're wandering through ancient medinas, trekking through Berber villages, or relaxing on the coast, Morocco provides a mix of adventure, culture, and relaxation.`,
 
     activities: [
-      'Hiking in the Atlas Mountains',
-      'Camel trekking',
-      'Desert camping',
-      'Surfing and kitesurfing',
-      'Exploring medinas and souks',
-      'Cooking classes',
-      'Cultural workshops',
+      'Hiking',
+      'Monuments',
     ],
 
     language: `Official: Arabic and Amazigh (Berber)

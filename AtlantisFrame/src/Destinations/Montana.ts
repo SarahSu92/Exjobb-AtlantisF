@@ -15,12 +15,7 @@ export const Montana =
 
     activities: [
       'Hiking',
-      'Skiing & Snowboarding',
-      'Fly Fishing',
-      'Kayaking & Rafting',
-      'Wildlife Viewing',
-      'Scenic Drives',
-      'Hot Springs',
+      'Monuments'    
     ],
 
     language: `Main: English
