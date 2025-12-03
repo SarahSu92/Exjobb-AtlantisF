@@ -11,58 +11,123 @@ export const DestinationDetailPage = () => {
   if (!destination) return <p>Destination not found.</p>;
 
   return (
-    <div className="destination-detail">
-      <h1>
-        {destination.name}, {destination.country}
-      </h1>
-      {destination.image && (
-        <img src={destination.image} alt={destination.name} />
-      )}
+    <>
+      <div className="destination-detail">
+        <div className="top">
+          <h1>{destination.name} Travel Guide</h1>
+          <p className="sub">
+            {destination.country} · {destination.region}
+          </p>
+        </div>
 
-      <p>{destination.longDescription || destination.description}</p>
+        <div className="hero">
+          {destination.image && (
+            <img src={destination.image} alt={destination.name} />
+          )}
+        </div>
 
-      <h2>Language</h2>
-      <p>{destination.language}</p>
+        <div className="layout">
+          {/* MAIN CONTENT */}
+          <div className="content">
+            <section className="box">
+              <h2>About {destination.name}</h2>
+              <p>{destination.longDescription}</p>
+            </section>
 
-      <h3>Religion</h3>
-      <p>{destination.religion}</p>
+            <section className="box">
+              <h2>Best Time to Travel</h2>
+              <p>{destination.bestTimeToTravel}</p>
+            </section>
 
-      <h3>Currency</h3>
-      {destination.currency && (
-        <p>
-          <strong>Currency:</strong> {destination.currency}
-        </p>
-      )}
+            <section className="box">
+              <h2>Tips</h2>
+              <ul>
+                {destination.tips.map((t, i) => (
+                  <li key={i}>{t}</li>
+                ))}
+              </ul>
+            </section>
 
-      {destination.payment && (
-        <p>
-          <strong>Payment:</strong>{' '}
-          {destination.payment.cardsAccepted.join(', ')}
-          {destination.payment.cashRecommended && ', cash recommended'}
-        </p>
-      )}
+            <section className="box">
+              <h2>Hotels</h2>
+              <ul>
+                {destination.hotels.map((h, i) => (
+                  <li key={i}>{h}</li>
+                ))}
+              </ul>
+            </section>
 
-      <h3>Climate</h3>
+            <section className="box">
+              <h2>Main Attractions</h2>
+              <ul>
+                {destination.attractions.map((a, i) => (
+                  <li key={i}>{a}</li>
+                ))}
+              </ul>
+            </section>
 
-      <p>{destination.climate}</p>
+            <section className="box">
+              <h2>Budget</h2>
+              <p>{destination.budget}</p>
+            </section>
+          </div>
 
-      {destination.bestTimeToTravel && (
-        <p>
-          <strong>Best Time to Travel:</strong> {destination.bestTimeToTravel}
-        </p>
-      )}
+          {/* SIDEBAR */}
+          <aside className="sidebar">
+            <div className="sidebar-box">
+              <h3>Quick facts</h3>
+              <p>
+                <strong>Country:</strong> {destination.country}
+              </p>
+              <p>
+                <strong>Religion:</strong> {destination.religion}
+              </p>
+              <p>
+                <strong>Currency:</strong> {destination.currency}
+              </p>
+              <p>
+                <strong>Region:</strong> {destination.region}
+              </p>
+              <p>
+                <strong>Activities:</strong> {destination.activities.join(', ')}
+              </p>
+              <p>
+                <strong>Climate:</strong> {destination.climate}
+              </p>
 
-      <h3>Tips</h3>
-      <p>{destination.tips}</p>
-
-      <h3>Hotels</h3>
-      <p>{destination.hotels}</p>
-
-      <h3>Activities</h3>
-      <p>{destination.attractions}</p>
-
-      <h3>Budget</h3>
-      <p>{destination.budget}</p>
-    </div>
+              <h3>Language</h3>
+              {destination.language &&
+                (typeof destination.language === 'string' ? (
+                  <p>{destination.language}</p>
+                ) : (
+                  <ul className="language-list">
+                    <li>
+                      <strong>Main:</strong> {destination.language.main}
+                    </li>
+                    {destination.language.regional && (
+                      <li>
+                        <strong>Regional:</strong>{' '}
+                        {destination.language.regional}
+                      </li>
+                    )}
+                    {destination.language.commonPhrases?.length > 0 && (
+                      <li>
+                        <strong>Common Phrases:</strong>
+                        <ul>
+                          {destination.language.commonPhrases.map((item, i) => (
+                            <li key={i}>
+                              {item.phrase} → {item.translation}
+                            </li>
+                          ))}
+                        </ul>
+                      </li>
+                    )}
+                  </ul>
+                ))}
+            </div>
+          </aside>
+        </div>
+      </div>
+    </>
   );
 };

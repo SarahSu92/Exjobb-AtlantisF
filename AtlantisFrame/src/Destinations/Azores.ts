@@ -37,12 +37,12 @@ export const Azores =
       'category: Faial, name: Azoris Faial Garden, description: Garden-style hotel on Faial Island',
     ],
     attractions: [
-      'title: Sete Cidades crater lakes, description: Iconic volcanic lakes with hiking trails',
-      'title: Furnas hot springs, description: Geothermal pools and traditional cozido cooking',
-      'title: Whale-watching tours, description: World-famous tours around the islands',
-      'title: Pico Mountain hike, description: Highest peak in Portugal with panoramic views',
-      'title: Terra Nostra Gardens, description: Historic botanical gardens with hot springs',
-      'title: Natural pools, tea plantations, volcanic vineyards, description: Scenic and cultural experiences',
+      ' Sete Cidades crater lakes, description: Iconic volcanic lakes with hiking trails',
+      ' Furnas hot springs, description: Geothermal pools and traditional cozido cooking',
+      ' Whale-watching tours, description: World-famous tours around the islands',
+      ' Pico Mountain hike, description: Highest peak in Portugal with panoramic views',
+      ' Terra Nostra Gardens, description: Historic botanical gardens with hot springs',
+      ' Natural pools, tea plantations, volcanic vineyards, description: Scenic and cultural experiences',
     ],
     budget: `The Azores is generally more affordable than mainland Portugal’s big cities or other Atlantic islands. 
             Budget travelers can spend around €60–€100 per day by staying in guesthouses, cooking some meals, and using 

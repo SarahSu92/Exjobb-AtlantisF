@@ -20,15 +20,7 @@ export const Aruba =
              Widely Spoken: English, Spanish
              Common Phrases (Papiamento):
              - Hello → Halo
-             - Good morning → Bon dia
-             - Good afternoon → Bon tardi
-             - Good evening → Bon nochi
-             - Goodbye → Ayo
-             - How are you? → Con ta bai?
-             - Fine, thank you → Mi ta bon, danki
-             - Please → Por fabor
-             - Thank you → Danki
-             - Excuse me / Sorry → Dispensa`,
+             - Thank you → Danki`,
     religion: [
       'Predominantly Roman Catholic',
       'Small Protestant and other communities',
