@@ -25,11 +25,11 @@ export const Azores =
       'Ideal for hiking, whale watching, and swimming',
     ],
     hotels: [
-      'category: São Miguel, name: Furnas Boutique Hotel, description: Comfortable boutique stay',
-      'category: São Miguel, name: Octant Ponta Delgada, description: Modern hotel with ocean views',
-      'category: Pico, name: Lava Homes, description: Cozy guesthouse',
-      'category: Pico, name: Aldeia da Fonte, description: Traditional island lodge',
-      'category: Faial, name: Azoris Faial Garden, description: Garden-style hotel on Faial Island',
+      'São Miguel, name: Furnas Boutique Hotel, description: Comfortable boutique stay',
+      'São Miguel, name: Octant Ponta Delgada, description: Modern hotel with ocean views',
+      'Pico, name: Lava Homes, description: Cozy guesthouse',
+      'Pico, name: Aldeia da Fonte, description: Traditional island lodge',
+      'Faial, name: Azoris Faial Garden, description: Garden-style hotel on Faial Island',
     ],
     attractions: [
       ' Sete Cidades crater lakes, description: Iconic volcanic lakes with hiking trails',

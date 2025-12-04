@@ -29,9 +29,9 @@ export const Capri = {
     'Must-see: Blue Grotto, Faraglioni, Piazzetta, scenic viewpoints',
   ],
   hotels: [
-    'category: Capri, name: JK Place Capri, description: Luxury boutique hotel with stunning cliffside views',
-    'category: Capri, name: La Scalinatella, description: Elegant 5-star stay with pools and terraces',
-    'category: Anacapri, name: Capri Palace – Jumeirah, description: High-end luxury with spa and tranquil atmosphere',
+    'Capri, name: JK Place Capri, description: Luxury boutique hotel with stunning cliffside views',
+    'Capri, name: La Scalinatella, description: Elegant 5-star stay with pools and terraces',
+    'Anacapri, name: Capri Palace – Jumeirah, description: High-end luxury with spa and tranquil atmosphere',
   ],
   attractions: [
     ' Blue Grotto (Grotta Azzurra), description: Iconic sea cave with glowing blue water',

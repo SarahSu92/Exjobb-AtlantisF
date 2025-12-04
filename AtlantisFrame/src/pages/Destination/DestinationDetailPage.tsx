@@ -114,12 +114,19 @@ export const DestinationDetailPage = () => {
             </section>
 
             <section className="box">
+              <img
+                src="" 
+                alt=''
+                className="hotel-image"
+              />
               <h2>Hotels</h2>
-              <ul>
+              <div className="hotels-grid">
                 {destination.hotels.map((h, i) => (
-                  <li key={i}>{h}</li>
+                  <div key={i} className="hotel-item">
+                    {h}
+                  </div>
                 ))}
-              </ul>
+              </div>
             </section>
 
             <section className="box">

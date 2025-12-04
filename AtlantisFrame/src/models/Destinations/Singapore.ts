@@ -46,23 +46,23 @@ export const Singapore =
     ],
 
     hotels: [
-      'category: Luxury, name: Marina Bay Sands, description: Iconic hotel with infinity pool and skyline views',
-      'category: Luxury, name: Raffles Singapore, description: Historic colonial-style landmark hotel',
-      'category: Mid-Range, name: Hotel Boss, description: Central, modern, and good value',
-      'category: Mid-Range, name: Orchard Hotel, description: Near major shopping streets',
-      'category: Budget, name: Chinatown Hostels, description: Affordable and centrally located',
-      'category: Budget, name: Capsule Hotels, description: Compact and ideal for solo travelers',
+      'Luxury, name: Marina Bay Sands, description: Iconic hotel with infinity pool and skyline views',
+      'Luxury, name: Raffles Singapore, description: Historic colonial-style landmark hotel',
+      'Mid-Range, name: Hotel Boss, description: Central, modern, and good value',
+      'Mid-Range, name: Orchard Hotel, description: Near major shopping streets',
+      'Budget, name: Chinatown Hostels, description: Affordable and centrally located',
+      'Budget, name: Capsule Hotels, description: Compact and ideal for solo travelers',
     ],
 
     attractions: [
-      'title: Marina Bay Sands & SkyPark, description: Iconic landmark with panoramic views',
-      'title: Gardens by the Bay, description: Supertree Grove, Cloud Forest & Flower Dome',
-      'title: Sentosa Island, description: Beaches, resorts, Universal Studios, and attractions',
-      'title: Chinatown, description: Temples, markets, and local cuisine',
-      'title: Little India, description: Colorful streets, culture, and food',
-      'title: Singapore Zoo & Night Safari, description: Renowned wildlife experiences',
-      'title: Orchard Road, description: World-famous shopping district',
-      'title: Hawker Centers, description: Local food hubs like Maxwell Food Centre and Lau Pa Sat',
+      'Marina Bay Sands & SkyPark, description: Iconic landmark with panoramic views',
+      'Gardens by the Bay, description: Supertree Grove, Cloud Forest & Flower Dome',
+      'Sentosa Island, description: Beaches, resorts, Universal Studios, and attractions',
+      'Chinatown, description: Temples, markets, and local cuisine',
+      'Little India, description: Colorful streets, culture, and food',
+      'Singapore Zoo & Night Safari, description: Renowned wildlife experiences',
+      'Orchard Road, description: World-famous shopping district',
+      'Hawker Centers, description: Local food hubs like Maxwell Food Centre and Lau Pa Sat',
     ],
 
     budget: `Daily expenses vary by travel style.
