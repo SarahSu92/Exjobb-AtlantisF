@@ -30,9 +30,6 @@ export const Aruba =
     bestTimeToTravel:
       'April–August for ideal weather; December–March is peak season with higher prices; hurricane-free year-round',
     tips: [
-      'Wear light clothing and sunscreen — the sun is strong',
-      'Dress modestly outside beach areas',
-      'Renting a car is ideal for exploring the island',
       'Tap water is safe to drink',
     ],
     hotels: [

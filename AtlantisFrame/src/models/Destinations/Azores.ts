@@ -22,7 +22,6 @@ export const Azores =
       'May to September for best weather, April and October good but more rainfall',
     tips: [
       'Expect quick weather changes — can be sunny, foggy, and rainy in one day',
-      'Ideal for hiking, whale watching, and swimming',
     ],
     hotels: [
       'São Miguel, name: Furnas Boutique Hotel, description: Comfortable boutique stay',

@@ -30,12 +30,9 @@ export const Boston =
       'summary: Humid continental climate with warm summers, cold snowy winters, and mild spring/autumn seasons',
     bestTimeToTravel:
       'Late spring (May–June) and early autumn (September–October) for ideal weather; summer is busy and warm; winter is cold and snowy',
-    tips: [
-      'Boston is very walkable — bring comfortable shoes',
-      'Use the “T” subway for longer distances',
-      'Tipping: 15–20% in restaurants is standard',
-      'Try local seafood such as clam chowder and lobster rolls',
-      'Freedom Trail is a must for history lovers',
+    tips: [     
+      'Try local seafood such as clam chowder and lobster rolls.',
+      
     ],
     hotels: [
       'Luxury, name: Boston Harbor Hotel, description: Waterfront luxury with elegant rooms and dining',
