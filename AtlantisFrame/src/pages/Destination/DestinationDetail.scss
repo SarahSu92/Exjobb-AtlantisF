@@ -68,38 +68,35 @@
     }
   }
 
- .quick-facts {
-  background: #fafafa;
-  border: 1px solid #e6e6e6;
-  padding: 1.8rem;
-  border-radius: 12px;
-  margin-bottom: 2rem;
-
-  .facts-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-      span {
-        font-weight: 600;
-      }
-    }
+  .fact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
   }
 
-  .fact {
-  font-weight: 500; 
+  .icon {
+    color: #f94a0b; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  p {
+    margin: 0.2rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
 }
 
-.fact span {
-  font-weight: bold;
-}
-
-  /* --- GRID LAYOUT FOR FACTS --- */
-  .facts-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1.5rem;
-    row-gap: 0.8rem;
-
-}
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 1.5rem; 
+  margin-top: 1rem;
 }

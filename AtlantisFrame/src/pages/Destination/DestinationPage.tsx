@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router';
 import './Destination.scss';
-import { Destinations } from '../../Destinations/DestinationIndex';
+import { Destinations } from '../../models/Destinations/DestinationIndex';
 
 export const DestinationPage = () => {
   // Gruppera destinations per region

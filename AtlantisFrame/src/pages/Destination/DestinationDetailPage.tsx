@@ -1,6 +1,14 @@
 import { useParams } from 'react-router';
 import './DestinationDetail.scss';
-import { Destinations } from '../../Destinations/DestinationIndex';
+import { Destinations } from '../../models/Destinations/DestinationIndex';
+import {
+  FiGlobe,
+  FiZap,
+  FiDollarSign,
+  FiMapPin,
+  FiSun,
+  FiMessageCircle,
+} from 'react-icons/fi';
 
 export const DestinationDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -20,44 +28,76 @@ export const DestinationDetailPage = () => {
           </p>
         </div>
 
-        <div className="hero">
-          {destination.image && (
-            <img src={destination.image} alt={destination.name} />
-          )}
-        </div>
-
         <div className="layout">
-          {/* MAIN CONTENT */}
           <div className="content">
             <section className="box">
               <h2>About {destination.name}</h2>
               <p>{destination.longDescription}</p>
             </section>
 
-            <section className="quick-facts box">
-              <h2>Quick Facts</h2>
+            <h2>Quick Facts</h2>
 
-              <div className="facts-grid">
-                <p className="fact">
-                  <span>Country:</span> {destination.country}
-                </p>
-                <p className="fact">
-                  <span>Religion:</span> {destination.religion}
-                </p>
-                <p className="fact">
-                  <span>Currency:</span> {destination.currency}
-                </p>
-                <p className="fact">
-                  <span>Region:</span> {destination.region}
-                </p>
-                <p className="fact">
-                  <span>Climate:</span> {destination.climate}
-                </p>
-                <p className="fact">
-                  <span>Language:</span> {destination.language}                 
-                </p>
+            <div className="facts-grid">
+              <div className="fact-item">
+                <div className="icon">
+                  <FiGlobe size={24} />
+                </div>
+                <div>
+                  <h4>Country</h4>
+                  <p>{destination.country}</p>
+                </div>
               </div>
-            </section>
+
+              <div className="fact-item">
+                <div className="icon">
+                  <FiZap size={24} />
+                </div>
+                <div>
+                  <h4>Religion</h4>
+                  <p>{destination.religion}</p>
+                </div>
+              </div>
+
+              <div className="fact-item">
+                <div className="icon">
+                  <FiDollarSign size={24} />
+                </div>
+                <div>
+                  <h4>Currency</h4>
+                  <p>{destination.currency}</p>
+                </div>
+              </div>
+
+              <div className="fact-item">
+                <div className="icon">
+                  <FiMapPin size={24} />
+                </div>
+                <div>
+                  <h4>Region</h4>
+                  <p>{destination.region}</p>
+                </div>
+              </div>
+
+              <div className="fact-item">
+                <div className="icon">
+                  <FiSun size={24} />
+                </div>
+                <div>
+                  <h4>Climate</h4>
+                  <p>{destination.climate}</p>
+                </div>
+              </div>
+
+              <div className="fact-item">
+                <div className="icon">
+                  <FiMessageCircle size={24} />
+                </div>
+                <div>
+                  <h4>Language</h4>
+                  <p>{destination.language}</p>
+                </div>
+              </div>
+            </div>
 
             <section className="box">
               <h2>Best Time to Travel</h2>
