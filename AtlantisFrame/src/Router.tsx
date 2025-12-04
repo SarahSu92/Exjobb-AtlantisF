@@ -38,6 +38,6 @@ export const Router = createBrowserRouter(
     },
   ],
   {
-    basename: '/AtlantisFrame', // Important for gh-pages!
+    basename: '/Exjobb-AtlantisF', // Important for gh-pages!
   }
 );
