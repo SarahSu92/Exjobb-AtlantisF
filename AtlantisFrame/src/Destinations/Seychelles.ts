@@ -2,7 +2,6 @@ export const Seychelles =
  {
     id: '10',
     name: 'Seychelles',
-    image: '',
     country: 'Seychelles',
     region: 'AFRICA',
     description:
@@ -19,17 +18,7 @@ export const Seychelles =
       'Beaches'
     ],
 
-    language: `Official Languages: English, French, Seychellois Creole (Kreol)
-     Common Phrases:
-     - Hello → Bonzour
-     - Good evening → Bonswar
-     - Goodbye → Ala bon swen
-     - How are you? → Kouman ou ete?
-     - Fine, thank you → Mon byen, Mersi
-     - Please → Silvouplé
-     - Thank you → Mersi
-     - You’re welcome → Pa ni problem
-     - Excuse me / Sorry → Eskiz mwa`,
+    language: `English, French, Seychellois Creole (Kreol)`,
 
     religion: [
       'Predominantly Christianity (Roman Catholic)',

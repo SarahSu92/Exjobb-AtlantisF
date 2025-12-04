@@ -2,7 +2,6 @@ export const Singapore =
  {
     id: '9',
     name: 'Singapore',
-    image: '',
     country: 'Singapore',
     region: 'ASIA',
     description:
@@ -20,10 +19,7 @@ export const Singapore =
       'Monuments'
     ],
 
-    language: `Main: English
-     Official Languages: English, Malay, Mandarin, Tamil
-     Common Phrases:
-     - Thank you → Terima kasih`,
+    language: `English, Malay, Mandarin, Tamil`,
 
     religion: ['Buddhism', 'Christianity', 'Islam', 'Hinduism', 'Taoism'],
 

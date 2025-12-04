@@ -2,7 +2,6 @@ export const Morocco=
 {
     id: '7',
     name: 'Morocco',
-    image: '',
     country: 'Morocco',
     region: 'AFRICA',
     description:
@@ -17,20 +16,8 @@ export const Morocco=
       'Monuments',
     ],
 
-    language: `Official: Arabic and Amazigh (Berber)
-     Widely spoken: French
-     English: Common in tourist areas
-     Common Phrases (Darija - Moroccan Arabic):
-     - Hello → Salam (سلام)
-     - Good morning → Sabah el khir (صباح الخير)
-     - Good evening → Msa’ el khir (مساء الخير)
-     - Goodbye → Bslama (بسلامة)
-     - How are you? → Kif dayr? (كيف داير؟)
-     - Fine, thank you → Bikhir, shukran (بخير، شكرا)
-     - Please → Afak (عفاك)
-     - Thank you → Shukran (شكرا)
-     - You’re welcome → La shukran ‘ala wajib (لا شكر على واجب)
-     - Excuse me / Sorry → Smah li (سمح لي)`,
+    language: `Arabic and Amazigh (Berber), French,
+     English: Common in tourist areas`,
 
     religion: ['Predominantly Islam (Sunni)'],
 

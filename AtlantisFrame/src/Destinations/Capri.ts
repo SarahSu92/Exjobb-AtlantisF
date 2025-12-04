@@ -1,7 +1,6 @@
 export const Capri = {
   id: '2',
   name: 'Capri',
-  image: '',
   country: 'Italy',
   region: 'EUROPE',
   description:
@@ -13,14 +12,7 @@ export const Capri = {
      Popular since ancient Roman times, the island is known for stunning sea views, luxury boutiques, scenic hikes, 
      and iconic natural features such as the Faraglioni rocks and the Blue Grotto.`,
   activities: ['Hiking', 'Monuments'],
-  language: {
-    main: 'Italian',
-    regional: 'Neapolitan (local dialect)',
-    commonPhrases: [
-      { phrase: 'Thank you', translation: 'Grazie' },
-      { phrase: 'Thank you very much', translation: 'Grazie mille' },
-    ],
-  },
+  language: 'Italian',
   religion: [
     'Predominantly Roman Catholic',
     'Some Protestant/Lutheran presence',
@@ -60,4 +52,4 @@ export const Capri = {
            Mid-range travelers spend €200–€350 per day for 3–4★ hotels, restaurants, and paid attractions like Blue Grotto or Monte Solaro. 
            Luxury travel often exceeds €500 per day, including 5★ hotels, fine dining, private boat tours, and exclusive experiences. 
            Transportation costs (ferries, buses, taxis) are modest but should be considered in planning.`,
-};
+}

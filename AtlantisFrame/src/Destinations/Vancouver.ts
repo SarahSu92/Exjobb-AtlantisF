@@ -2,7 +2,6 @@ export const Vancouver =
  {
     id: '6',
     name: 'Vancouver',
-    image: '',
     country: 'Canada',
     region: 'NORTH AMERICA',
     description:
@@ -19,13 +18,7 @@ export const Vancouver =
      
     ],
 
-    language: `Main: English
-             Common Secondary Languages: Mandarin, Cantonese, Punjabi, Tagalog
-             Useful Phrases:
-             - Thank you → Thank you
-             - You’re welcome → No problem / You’re welcome
-             - Hello → Hi
-             - Excuse me → Excuse me`,
+    language: `English`,
 
     religion: [
       'Large non-religious population',

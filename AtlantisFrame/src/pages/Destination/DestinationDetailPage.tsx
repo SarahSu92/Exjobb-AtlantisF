@@ -34,6 +34,31 @@ export const DestinationDetailPage = () => {
               <p>{destination.longDescription}</p>
             </section>
 
+            <section className="quick-facts box">
+              <h2>Quick Facts</h2>
+
+              <div className="facts-grid">
+                <p className="fact">
+                  <span>Country:</span> {destination.country}
+                </p>
+                <p className="fact">
+                  <span>Religion:</span> {destination.religion}
+                </p>
+                <p className="fact">
+                  <span>Currency:</span> {destination.currency}
+                </p>
+                <p className="fact">
+                  <span>Region:</span> {destination.region}
+                </p>
+                <p className="fact">
+                  <span>Climate:</span> {destination.climate}
+                </p>
+                <p className="fact">
+                  <span>Language:</span> {destination.language}                 
+                </p>
+              </div>
+            </section>
+
             <section className="box">
               <h2>Best Time to Travel</h2>
               <p>{destination.bestTimeToTravel}</p>
@@ -71,61 +96,6 @@ export const DestinationDetailPage = () => {
               <p>{destination.budget}</p>
             </section>
           </div>
-
-          {/* SIDEBAR */}
-          <aside className="sidebar">
-            <div className="sidebar-box">
-              <h3>Quick facts</h3>
-              <p>
-                <strong>Country:</strong> {destination.country}
-              </p>
-              <p>
-                <strong>Religion:</strong> {destination.religion}
-              </p>
-              <p>
-                <strong>Currency:</strong> {destination.currency}
-              </p>
-              <p>
-                <strong>Region:</strong> {destination.region}
-              </p>
-              <p>
-                <strong>Activities:</strong> {destination.activities.join(', ')}
-              </p>
-              <p>
-                <strong>Climate:</strong> {destination.climate}
-              </p>
-
-              <h3>Language</h3>
-              {destination.language &&
-                (typeof destination.language === 'string' ? (
-                  <p>{destination.language}</p>
-                ) : (
-                  <ul className="language-list">
-                    <li>
-                      <strong>Main:</strong> {destination.language.main}
-                    </li>
-                    {destination.language.regional && (
-                      <li>
-                        <strong>Regional:</strong>{' '}
-                        {destination.language.regional}
-                      </li>
-                    )}
-                    {destination.language.commonPhrases?.length > 0 && (
-                      <li>
-                        <strong>Common Phrases:</strong>
-                        <ul>
-                          {destination.language.commonPhrases.map((item, i) => (
-                            <li key={i}>
-                              {item.phrase} → {item.translation}
-                            </li>
-                          ))}
-                        </ul>
-                      </li>
-                    )}
-                  </ul>
-                ))}
-            </div>
-          </aside>
         </div>
       </div>
     </>

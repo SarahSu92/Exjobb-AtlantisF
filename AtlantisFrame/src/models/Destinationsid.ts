@@ -8,11 +8,7 @@ export interface Destination {
   shortDescription?: string;
   longDescription?: string;
   activities?: string[];
-   language: {
-    main: string;
-    regional?: string;
-    commonPhrases?: { phrase: string; translation: string }[];
-  };
+  language: string;
   religion?: string[];
   currency?: string;
   payment?: { cardsAccepted: string[]; cashRecommended?: boolean };

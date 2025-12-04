@@ -2,7 +2,6 @@ export const Aruba =
 {
     id: '3',
     name: 'Aruba',
-    image: '',
     country: 'Caribbean',
     region: 'NORTH AMERICA',
     description:
@@ -16,11 +15,7 @@ export const Aruba =
     activities: [     
       'Beaches',
     ],
-    language: `Main: Dutch, Papiamento
-             Widely Spoken: English, Spanish
-             Common Phrases (Papiamento):
-             - Hello → Halo
-             - Thank you → Danki`,
+    language: `Dutch, Papiamento, English, Spanish`,
     religion: [
       'Predominantly Roman Catholic',
       'Small Protestant and other communities',

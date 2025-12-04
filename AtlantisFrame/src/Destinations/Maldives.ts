@@ -2,7 +2,6 @@ export const Maldives =
  {
     id: '8',
     name: 'Malé',
-    image: '',
     country: 'Maldives',
     region: 'ASIA',
     description:
@@ -17,16 +16,7 @@ export const Maldives =
       'Beaches'     
     ],
 
-    language: `Main: Dhivehi
-     Widely spoken: English
-     Common Phrases (Dhivehi):
-     - Hello → Assalaamu alaikum
-     - Goodbye → Bodu thibaage
-     - How are you? → Kihineh?
-     - Fine, thank you → Boduḷah, shukuriyya
-     - Please → Miadhu
-     - Thank you → Shukuriyya
-     - Excuse me / Sorry → Fahadhu`,
+    language: `Dhivehi, English`,
 
     religion: ['Islam is the state religion and central to daily life'],
 

@@ -2,7 +2,6 @@ export const Boston =
 {
     id: '4',
     name: 'Boston',
-    image: '',
     country: 'United States',
     region: 'NORTH AMERICA',
     description:
@@ -17,13 +16,7 @@ export const Boston =
       'Urban Culture',
       'Monuments' 
       ],
-    language: `Main: English
-             Common Secondary: Spanish, Portuguese, Chinese, Italian
-             Common Phrases:
-             - Hello → Hello / Hi
-             - Thank you → Thank you
-             - Please → Please
-             - Excuse me → Excuse me`,
+    language: `English`,
     religion: [
       'Predominantly Christian (Roman Catholic, Protestant)',
       'Jewish, Muslim, and other smaller communities',

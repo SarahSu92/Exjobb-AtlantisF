@@ -2,7 +2,6 @@ export const Azores =
   {
     id: '1',
     name: 'Azores',
-    image: '',
     country: 'Portugal',
     region: 'EUROPE',
     description:
@@ -13,11 +12,7 @@ export const Azores =
     Known for lush landscapes, crater lakes, geothermal hot springs, whale-watching tours, and scenic hikes.
   `,
     activities: ['Hiking', 'Monuments'],
-    language: `Main: Dutch
-                Regional: Papiamento
-                Common Phrases:
-                - Hello → Halo
-                - Good morning → Bon dia`,
+    language: `Dutch, Regional: Papiamento`,
     religion: ['Predominantly Roman Catholic'],
     currency: 'Euro (€ / EUR)',
     payment: { cardsAccepted: ['VISA', 'Mastercard'], cashRecommended: true },

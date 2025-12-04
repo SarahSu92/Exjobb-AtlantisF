@@ -2,7 +2,6 @@ export const Montana =
 {
     id: '5',
     name: 'Montana, Bozeman',
-    image: '',
     country: 'United States',
     region: 'NORTH AMERICA',
     description:
@@ -18,18 +17,7 @@ export const Montana =
       'Monuments'    
     ],
 
-    language: `Main: English
-             Other Languages: Some Spanish spoken locally
-             Common Phrases:
-             - Hello → Hello
-             - Good morning → Good morning
-             - Good evening → Good evening
-             - Goodbye → Goodbye
-             - How are you? → How are you?
-             - Fine, thank you → I’m fine, thank you
-             - Please → Please
-             - Thank you → Thank you
-             - Excuse me / Sorry → Excuse me / Sorry`,
+    language: `English`,
 
     religion: [
       'Predominantly Christian (Protestant, Catholic)',
