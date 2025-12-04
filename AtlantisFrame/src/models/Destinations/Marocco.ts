@@ -4,6 +4,10 @@ export const Morocco=
     name: 'Morocco',
     country: 'Morocco',
     region: 'AFRICA',
+    heroimage: '',
+    image1: '',
+    image2: '',
+    image3: '',
     description:
       'Morocco is a North African country known for its vibrant culture, diverse landscapes, and rich history — from bustling medinas and colorful souks to the Sahara Desert and Atlas Mountains.',
     shortDescription:

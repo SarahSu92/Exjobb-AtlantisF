@@ -22,6 +22,10 @@ export const DestinationDetailPage = () => {
     <>
       <div className="destination-detail">
         <div className="top">
+          <img
+            src={`${import.meta.env.BASE_URL}${destination.heroimage}`}
+            alt={destination.name}
+          />
           <h1>{destination.name} Travel Guide</h1>
           <p className="sub">
             {destination.country} · {destination.region}
@@ -131,9 +135,10 @@ export const DestinationDetailPage = () => {
 
               {/* Bildkolumn */}
               <div className="attractions-image">
-                <img src="" alt="Attraction 1" className="hotel-image" />
-                <img src="" alt="Attraction 2" className="hotel-image" />
-                <img src="" alt="Attraction 3" className="hotel-image" />
+                <img
+                  src={`${import.meta.env.BASE_URL}${destination.image1}`}
+                  alt={destination.name}
+                />
               </div>
             </div>
           </section>
@@ -141,6 +146,10 @@ export const DestinationDetailPage = () => {
           <section className="box">
             <h2>Budget</h2>
             <p>{destination.budget}</p>
+            <img
+                  src={`${import.meta.env.BASE_URL}${destination.image2}`}
+                  alt={destination.name}
+                />
           </section>
         </div>
       </div>

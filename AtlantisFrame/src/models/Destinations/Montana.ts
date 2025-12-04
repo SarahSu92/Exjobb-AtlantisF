@@ -4,6 +4,10 @@ export const Montana =
     name: 'Montana, Bozeman',
     country: 'United States',
     region: 'NORTH AMERICA',
+    heroimage: '',
+    image1: '',
+    image2: '',
+    image3: '',
     description:
       'Bozeman is a city in southwestern Montana known for its proximity to Yellowstone, mountain landscapes, and outdoor adventure.',
     shortDescription:

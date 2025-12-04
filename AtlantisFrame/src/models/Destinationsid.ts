@@ -3,7 +3,10 @@ export interface Destination {
   name: string;
   country: string;
   region: 'EUROPE' | 'NORTH AMERICA' | 'AFRICA' | 'ASIA';
-  image?: string;
+  heroimage: string;
+  image1?: string;
+  image2?: string;
+  image3?: string;
   description?: string;
   shortDescription?: string;
   longDescription?: string;

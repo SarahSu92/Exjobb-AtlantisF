@@ -4,6 +4,10 @@ export const Seychelles =
     name: 'Seychelles',
     country: 'Seychelles',
     region: 'AFRICA',
+    heroimage: '',
+    image1: '',
+    image2: '',
+    image3: '',
     description:
       'Seychelles is an Indian Ocean archipelago known for its pristine beaches, turquoise waters, lush tropical forests, and unique wildlife.',
     shortDescription:

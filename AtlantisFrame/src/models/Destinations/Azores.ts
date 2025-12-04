@@ -4,6 +4,10 @@ export const Azores =
     name: 'Azores',
     country: 'Portugal',
     region: 'EUROPE',
+    heroimage: '',
+    image1: '',
+    image2: '',
+    image3: '',
     description:
       'The Azores are a Portuguese archipelago in the Atlantic Ocean, known for volcanic landscapes, green valleys, and picturesque villages.',
     shortDescription:

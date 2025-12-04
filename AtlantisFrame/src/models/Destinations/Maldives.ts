@@ -3,6 +3,10 @@ export const Maldives = {
   name: 'Malé',
   country: 'Maldives',
   region: 'ASIA',
+  heroimage: '',
+  image1: '',
+  image2: '',
+  image3: '',
   description:
     'Malé is the vibrant capital of the Maldives, known for its markets, mosques, colorful buildings, and as the main gateway to the country’s resort islands.',
   shortDescription:

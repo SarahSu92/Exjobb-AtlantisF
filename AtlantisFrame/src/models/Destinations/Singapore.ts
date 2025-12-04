@@ -4,6 +4,10 @@ export const Singapore =
     name: 'Singapore',
     country: 'Singapore',
     region: 'ASIA',
+    heroimage: '',
+    image1: '',
+    image2: '',
+    image3: '',
     description:
       'Singapore is a modern, multicultural city-state known for its futuristic skyline, world-class attractions, and diverse culinary scene.',
     shortDescription:

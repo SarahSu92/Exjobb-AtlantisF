@@ -4,6 +4,10 @@ export const Aruba =
     name: 'Aruba',
     country: 'Caribbean',
     region: 'NORTH AMERICA',
+    heroimage: '',
+    image1: '',
+    image2: '',
+    image3: '',
     description:
       'Aruba is a Caribbean island known for its white sandy beaches, turquoise waters, constant trade winds, and year-round sunshine.',
     shortDescription:

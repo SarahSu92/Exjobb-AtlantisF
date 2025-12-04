@@ -3,6 +3,10 @@ export const Capri = {
   name: 'Capri',
   country: 'Italy',
   region: 'EUROPE',
+  heroimage: '',
+  image1: '',
+  image2: '',
+  image3: '',
   description:
     'Capri is an Italian island in the Tyrrhenian Sea, famous for its limestone cliffs, the Blue Grotto, and ancient Roman heritage.',
   shortDescription:
@@ -52,4 +56,4 @@ export const Capri = {
            Mid-range travelers spend €200–€350 per day for 3–4★ hotels, restaurants, and paid attractions like Blue Grotto or Monte Solaro. 
            Luxury travel often exceeds €500 per day, including 5★ hotels, fine dining, private boat tours, and exclusive experiences. 
            Transportation costs (ferries, buses, taxis) are modest but should be considered in planning.`,
-}
+};
