@@ -4,10 +4,10 @@ export const Boston =
     name: 'Boston',
     country: 'United States',
     region: 'NORTH AMERICA',
-    heroimage: '/boston.jpg',
-    image1: '/church.jpg',
-    image2: '/bostoncity.jpg',
-    image3: '/famousstreet.jpg',
+    heroimage: '/Boston/boston.jpg',
+    image1: '/Boston/church.jpg',
+    image2: '/Boston/bostoncity.jpg',
+    image3: '/Boston/famousstreet.jpg',
     description:
       'Boston is one of the oldest and most historically significant cities in the United States, known for its colonial heritage, universities, and vibrant cultural scene.',
     shortDescription:
