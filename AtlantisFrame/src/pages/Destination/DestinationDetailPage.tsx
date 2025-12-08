@@ -123,7 +123,6 @@ export const DestinationDetailPage = () => {
 
           <section className="box attractions-section">
             <div className="attractions-layout">
-              {/* Textkolumn */}
               <div className="attractions-text">
                 <h2>Main Attractions</h2>
                 <ul>
@@ -133,7 +132,6 @@ export const DestinationDetailPage = () => {
                 </ul>
               </div>
 
-              {/* Bildkolumn */}
               <div className="attractions-image">
                 <img
                   src={`${import.meta.env.BASE_URL}${destination.image1}`}
@@ -146,11 +144,13 @@ export const DestinationDetailPage = () => {
           <section className="box">
             <h2>Budget</h2>
             <p>{destination.budget}</p>
-            <img
-                  src={`${import.meta.env.BASE_URL}${destination.image2}`}
-                  alt={destination.name}
-                />
           </section>
+          <div className="top">
+            <img
+              src={`${import.meta.env.BASE_URL}${destination.image2}`}
+              alt={destination.name}
+            />
+          </div>
         </div>
       </div>
     </>
