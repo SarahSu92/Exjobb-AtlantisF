@@ -10,7 +10,7 @@ export const Navigation = () => {
     <nav>
       <a href="/" className="logo">Atlantis Frame</a>
 
-      {/* Hamburger button - only on mobile */}
+      
       <button
         className={`menubtn ${open ? "active" : ""}`}
         aria-label="Menu"
@@ -23,7 +23,7 @@ export const Navigation = () => {
         <span className="line"></span>
       </button>
 
-      {/* Menu */}
+      
       <ul id="mobile-menu" className={`menu ${open ? "active" : ""}`}>
         <li><NavLink to="/" onClick={() => setOpen(false)}>Home</NavLink></li>
         <li><NavLink to="/DestinationPage" onClick={() => setOpen(false)}>Destinations</NavLink></li>
